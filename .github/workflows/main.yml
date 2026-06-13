@@ -62,7 +62,7 @@ jobs:
           fi
           
           # Rename with build number
-          NEW_JAR="target/-${NEXT_NUM}.jar"
+          NEW_JAR="target/test-${NEXT_NUM}.jar"
           mv "$ORIGINAL_JAR" "$NEW_JAR"
           echo "JAR_FILE=$NEW_JAR" >> "$GITHUB_ENV"
           echo "JAR_NAME=caesium-${NEXT_NUM}.jar" >> "$GITHUB_ENV"
