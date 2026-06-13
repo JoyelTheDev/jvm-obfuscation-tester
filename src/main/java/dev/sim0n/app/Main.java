@@ -1,5 +1,7 @@
 package dev.sim0n.app;
 
+import xyz.qreaj.tests.Tests;
+
 /**
  * @author sim0n
  */
