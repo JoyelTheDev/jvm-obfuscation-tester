@@ -13,6 +13,7 @@ public class Tests {
     }
 
     public static void testConditions(int value,int value2, Object obj1, Object obj2) {
+        dontOptimize(new Object[]{value,value2});
         if (value <= 0) System.out.println("IFGT PASS");
         else throw new IllegalStateException("IFGT FAIL");
 
