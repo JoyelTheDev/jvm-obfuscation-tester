@@ -13,11 +13,11 @@ public class Tests {
     }
 
     public static void testConditions(int value,int value2, Object obj1, Object obj2) {
-        if (value <= 0) System.out.println("IFLT PASS");
-        else throw new IllegalStateException("IFLT FAIL");
-
-        if (value2 >= 0) System.out.println("IFGT PASS");
+        if (value <= 0) System.out.println("IFGT PASS");
         else throw new IllegalStateException("IFGT FAIL");
+
+        if (value2 >= 0) System.out.println("IFLT PASS");
+        else throw new IllegalStateException("IFLT FAIL");
 
         if (obj1 == obj2) throw new IllegalStateException("IF_ACMPEQ FAIL");
         else System.out.println("IF_ACMPEQ PASS");
