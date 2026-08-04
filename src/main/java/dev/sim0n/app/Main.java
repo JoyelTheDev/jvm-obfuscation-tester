@@ -1,6 +1,6 @@
 package dev.sim0n.app;
 
-import xyz.qreaj.tests.Tests;
+import dev.joyel.optests.Tests;
 
 /**
  * @author sim0n

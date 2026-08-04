@@ -27,11 +27,8 @@ public class TestRepository {
             new AnnotationTest(),
             new OpaqueConditionTest(),
             new WeirdLoopTest(),
-
             new InheritanceTest(),
-
             new EnumConstantsTest(),
-
             new NumberComparisonTest(),
             new BlowfishTest(),
             new EvaluationTest(),
