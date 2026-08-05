@@ -14,7 +14,7 @@ Runs two suites of tests against the JVM to confirm that an obfuscator has not b
 ## Usage
 
 ```bash
-java -jar obf-test.jar
+java -jar obf-tester.jar
 ```
 
 ## How it works
